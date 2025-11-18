@@ -1,0 +1,74 @@
+input[type='number'] {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 368px;
+  height: 40px;
+  outline: none;
+  padding-left: 16px;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+input[type='number']:hover {
+  border-color: #000;
+}
+
+input[type='number']:focus {
+  border-color: #4e75ff;
+}
+
+form > fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  width: 360px;
+  height: 64px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 16px;
+  margin-top: 50px;
+}
+
+form > label:nth-child(1) {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+form > button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 388px;
+  height: 40px;
+}
+
+legend {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset > label {
+  font-family: 'Montserrat', sans-serif;
+  color: #2e2f42;
+}
+
+fieldset > label > input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+}
